@@ -4,12 +4,12 @@ $:.push File.expand_path("../lib", __FILE__)
 Gem::Specification.new do |s|
   # Metadata
   s.name        = "builder"
-  s.version     = '3.0.0' 
+  s.version     = '3.0.0.1' 
   s.authors     = [""]
   s.email       = [""]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Patched builder to allow AirBrake to work on 1.8.7}
+  s.description = %q{Patched builder to allow AirBrake to work on 1.8.7}
 
   s.rubyforge_project = "builder"
 
